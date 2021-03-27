@@ -23,9 +23,9 @@ function smtp_mailer($to,$subject, $msg){
 	$mail->Post=587;
 	$mail->SMTPSecure="tls";
 	$mail->SMTPAuth=true;
-	$mail->Username="rakeshdhiman423@gmail.com";
-	$mail->Password="krm9j8t7";
-	$mail->SetFrom("rakeshdhiman423@gmail.com");
+	$mail->Username="EmailAccount";
+	$mail->Password="Password";
+	$mail->SetFrom("EmailAccount");
 	//$mail->addAddress("rakeshdhiman423@gmail.com");
 	$mail->IsHTML(true);
 	$mail->Subject = $subject;
